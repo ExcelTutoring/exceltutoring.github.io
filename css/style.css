@@ -12,7 +12,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Satisfy', cursive;
 }
 
@@ -30,7 +30,7 @@
 
 /* Styling the header, body and text */
 body {
-    background-image: url("images/ijo8KeK3.jpg");
+    background-image: url("../images/ijo8KeK3.jpg");
     width: 100%;
     overflow: hidden;
     /*background-size: 1400px 1200px;*/
@@ -45,7 +45,7 @@ h1 {
   font-size: 50px;
   line-height: 60px;
   text-align: center;
-  top: 20%;
+  top: 20%
 }
 
 .sendbtn{
@@ -63,8 +63,10 @@ h1 {
   font-size: 20px;
 }
 
-
 .container{
   width: 100%;
   padding: 0;
+}
+.header {
+  padding-top: 5%;
 }

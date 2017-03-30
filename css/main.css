@@ -27,3 +27,56 @@
     background-color: #696969;
     color: red;
 }
+
+body{
+    background: black;
+    height: 100%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%;
+}
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-image {
+    min-width: 100%;
+
+}
+blockquote {
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-top: 2px solid #38b6cd;
+    border-bottom: 2px solid #38b6cd;
+}
+blockquote footer {
+    color: #38b6cd;
+}
+.testimonial {
+    top:50%;
+    transform: translateY(-50%);
+    bottom:initial;
+}
+#contact-button {
+    vertical-align: middle;
+}
+#welcome {
+    vertical-align: bottom;
+}
+#welcome p{
+    font-size:20px;
+}
+#welcome h3{
+    font-size: 24px;
+}
+#contact p{
+    font-size:20px;
+}

@@ -11,13 +11,6 @@
 	<link rel="stylesheet" type="text/css"
   		href="css/main.css">	
   	<link href="carosel.css" rel="stylesheet">
-  	<style>
-  	.carousel-inner > .item > img,
-  	.carousel-inner > .item > a > img {
-  		width: 70%;
-  		margin: auto;
-  	}
-  	</style>
 </head>
 <body>
 
@@ -53,41 +46,50 @@
 			<!-- Active slide 1 -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="images/image-1.jpg" alt="Welcome">
-					<div class="carousel-caption">
-						<h3>Welcome</h3>
-						<p>ExcelTutoring is a 5* tutoring business etc etc</p>
+					<a href="#">
+					<img src="images/studyimage9.jpg" alt="Testimonial"></a>
+					<div class="carousel-caption" id="welcome">
+						<h3>Welcome to ExcelTutoring</h3>
+						<p>A 5* tutoring business run by me, Davina</p>
 					</div>
 				</div>
 			<!-- slide 2 -->
 				<div class="item">
-					<img src="images/image-2.jpg" alt="Testimonial">
-					<div class="carousel-caption">
-						<h3>Testimonial 1</h3>
-						<p>This will be the first testimonial</p>
+					<a href="#">
+					<img src="images/studyimage7.jpg" alt="Testimonial"></a>
+					<div class="carousel-caption testimonial">
+						<blockquote><h3>Testimonial</h3>
+						<p>Davina responded very quickly, was flexible with times and is getting on very well with my daughter. She is organised, punctual and seems to really know her stuff. My daughter really likes her and says that her work is improving.</p>
+						<footer> Rosa </footer></blockquote>
 					</div>
 				</div>
 			<!--slide 3-->
 				<div class="item">
-					<img src="images/image-3.jpg" alt="Testimonial">
-					<div class="carousel-caption">
-						<h3>Testimonial 2</h3>
-						<p>This will be the second testimonial</p>
+					<a href="#">
+					<img src="images/studyimage3.jpg" alt="Testimonial"></a>
+					<div class="carousel-caption testimonial">
+						<blockquote><h3>Testimonial 2</h3>
+						<p>I would highly recommend Davina as a tutor. She works diligently, prepares her lessons beforehand, is very systematic and knowledgeable. I have seen a tremendous improvement in both my kids` performance (all three sciences) in such a short span of time. A big thank you to Davina!!</p>
+						<footer> Anmol </footer></blockquote>
 					</div>
 				</div>
 			<!-- slide 4 -->
 				<div class="item">
-					<img src="images/image-4.jpg" alt="Testimonial">
-					<div class="carousel-caption">
-						<h3>Enquire now</h3>
-						<p>This will contain a button that links to the contact page/p>
+					<a href="#">
+					<img src="images/studyimage1.jpg" alt="Testimonial"></a>
+					<div class="carousel-caption" id="contact">
+						<h3> Get in contact </h3>
+						<p>if you are interested in working together!</p>
+						<div id="contact-button" class="col-md-12 text-center">
+							<a href="Davinacontactme.html" class="btn btn-info btn-lg" role="button">Enquire now</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Left and right controls -->
-		<a class="left carousel-control" href="myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
 			<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
@@ -95,56 +97,16 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-	<!-- This is some ideas for the bit below on the index page! -->
-	<div class="container" style="margin-top:50px">
-  		<a name="Welcome"></a>
-  		<h3>Welcome</h3>
-  		<div class="row">
-    		<div class="col-md-10">
-      		<p>Welcome to ExcelTutoring, a tutoring company run by me, Davina! I`m currently a student at Imperial College London, in my 3rd year studying Biochemistry. My academic track record so far has always been of a high standard, and I`m currently predicted to receive a 1st for my degree. <br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 
-			I`ve had a lot of experience tutoring both informally and formally, as well as experience in childcare settings, and have always received positive feedback from students who have both benefited and enjoyed my tutoring. I hope I can be of help to you too!</p> </div>
-    	</div>
-    </div>
-	<!-- <div class="container" style="margin-top:50px">
-  		<a name="About-me"></a>
-  		<h3>About me</h3>
-  		<div class="row">
-    		<div class="col-md-5">
-      		<p>Here will be a few lines about Davina, and a link attached to the title/photo of her that links to the whole about me page?</p> 
-      		</div>   
-    		<div class="col-md-5"> 
-      		<p>Some more information about Davina?</p>
-    		</div>
-    	</div>
-    </div>
-    <div class="container" style="margin-top:50px">
-  		<a name="Testimonials"></a>
-  		<h3>Testimonials</h3>
-  		<div class="row">
-    		<div class="col-md-10">
-      		<p>Perhaps here we could have some information abotu previous students?</p> 
-      		</div>   
-    	</div>
-    </div>
-    <div class="container" style="margin-top:50px">
-  		<a name="Revision-resources"></a>
-  		<h3>Revision Resources</h3>
-  		<div class="row">
-    		<div class="col-md-10">
-      		<p>Something about clicking here for some more information about resources?</p>    
-    		</div>
-    	</div>
-    </div>
-    <div class="container" style="margin-top:50px">
-  		<a name="Contact-me"></a>
-  		<h3>Contact me</h3>
-  		<div class="row">
-    		<div class="col-md-10">
-      		<p>Some information on getting in contact</p>    
-    		</div>
-    	</div>
-	</div>-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+$('#myCarousel').hover(
+    function() {
+        $(this).carousel('pause');
+    },
+    function() {
+        $(this).carousel('cycle');
+    }
+);
+</script>
 </body>
 </html>
