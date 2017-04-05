@@ -88,6 +88,8 @@ p, h4 {
   margin: 0;
   padding: 30px;
   color:#fff;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 #free{ 
@@ -149,6 +151,8 @@ p, h4 {
   margin-bottom: 15px;
   padding-left: 30px;
   cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .control input {
