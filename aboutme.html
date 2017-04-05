@@ -26,7 +26,12 @@
 
 	<script type="text/javascript" src="script.js"></script>
 
-	
+	<!-- CSS Animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="animate.min.css">
+
+	<!-- AOS on scroll animations-->
+    <link rel="stylesheet" href="css/dist/aos.css"/>
 
 	<!-- Adding an icon to the web tab-->
 	<link rel="shortcut icon" href="images/pencil.png" /> 
@@ -65,28 +70,37 @@
  	</div> 
 
 <!-- About Me Message -->
+	<br><br><br>
 	<center>
 		<div class="aboutme" class="row">
-			<h1 id="aboutmehead">About me</h1>
+			<h1 id="aboutmehead" data-aos="fade-up">About me</h1>
 			<div class="col-md-8">
 				<div class="intro">
 					<p>Hi I'm Davina! I'm currently a student at Imperial College London, in my 3rd year studying Biochemistry. My academic track record so far has always been of a high standard, and I'm currently predicted to receive a 1st for my degree.</p>
 					<p>I've had a lot of experience tutoring both informally and formally, as well as experience in childcare settings, and have always received positive feedback from students who have both benefited and enjoyed my tutoring. I hope I can be of help to you too!</p>
 				</div>
 			</div>
-			<img class="face" src="images/face.jpg" class="col-md-4" style="width: 200px">
+			<div data-aos="fade-left" data-aos-delay="300">
+				<img class="face" src="images/face.jpg" class="col-md-4" style="width: 200px">
+			</div>
 		</div>
 	</center>
 
 <!-- Subjects -->
 	<center>
-		<h2 id="subjectshead">Subjects</h2>
+		<br><br>
+		<div class="row">
+			<br>
+			<h2 id="subjectshead col-md-12">Subjects</h2>
+			<br><br>
+		</div>
+		<div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 		<div class="row" class="container">
-			<div class="col-md-3">
-				<div class="panel-group">
-				    <div class="panel panel-default">
+			<div class="col-md-3" >
+				<div class="panel-group" >
+				    <div class="panel panel-default" >
 				        <div class="panel-heading">
-				        	<h3 class="panel-title">
+				        	<h3 class="panel-title" >
 				          		<a data-toggle="collapse" href="#collapse1">A-levels</a>
 				        	</h3>
 				      	</div>
@@ -160,33 +174,78 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</center>
-	
+	<br><br>
+
 <!-- Experience -->
 	<center>
 		<div class="experience">
 			<h2 id="experiencehead">Experience</h2>
+			<br><br>
 			<p>Currently I tutor students one-to-one to sit the 11+ exams. Having sat and passed the 11+ exams myself, I have a full understanding of the skills and technique required to succeed. I also have KS3 and GCSE level students, who I have managed to advance from E grades to As.</p>
 			<p>In the past I have been a tutor at Explore Learning where I tutored up to 6 students simultaneously, varying in age from 4 to 16. There I also received training and experience tutoring students to sit 11+ exams for entry to selective grammar schools. At Explore Learning I also had the opportunity to tutor students with special educational needs (SEN).</p>
 			<p>In the past I have mentored AS Biology students and also regularly volunteered to teach children with SENs to read at  schools such as West Lea School, Edmonton.</p>
 		</div>
+		<br><br>
+
 	</center>
 <!-- Academics -->
 	<center>
 		<div class="qualifications">
-			<h2 id="qualificationshead">Qualifications</h2>
+			<h2 id="qualificationshead">Qualifications</h2><br>
+				<ul>
+					<li>
+						<div class="check" data-aos="flip-left">
+						<span class="checkmark">
+		    				<div class="checkmark_circle"></div>
+		    				<div class="checkmark_stem"></div>
+		   					<div class="checkmark_kick"></div>
+						</span>
+						</div>
+						<div class="qualli">
+							DBS/CRB checked
+						</div>
+					</li>
+					<li>
+						<div class="check" data-aos="flip-left">
+						<span class="checkmark">
+		    				<div class="checkmark_circle"></div>
+		    				<div class="checkmark_stem"></div>
+		   					<div class="checkmark_kick"></div>
+						</span>
+						</div>
+						<div class="qualli">
+						3+ years experience
+						</div>
+					</li>
+					<li>
+						<div class="check" data-aos="flip-left">
+						<span class="checkmark">
+		    				<div class="checkmark_circle"></div>
+		    				<div class="checkmark_stem"></div>
+		   					<div class="checkmark_kick"></div>
+						</span>
+						</div>
+						<div class="qualli">
+						Outstanding academic record
+						</div>
+					</li>
+				</ul><br>
 				<p>Please check out my<a href="https://www.tutorhunt.com/users/~9795479539796/?od=72550421"> TutorHunt </a>profile for a list of my qualifications</p>
 		</div>
 	</center>	
-	
+	<br><br><br>
+
+<!-- AOS on scroll script -->
+    <script src="css/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
 </body>
 
 </html>
 
-<!-- fix padding issue in nav bar
-button hover doesn't change colour of whole background
-picture won't resize
-need to put all on github
-is the text (esp link at the bottom) readable? 
-should we put a footer or some space at the bottom e.g. website designed by...
-any jquery stuff to put in? -->
